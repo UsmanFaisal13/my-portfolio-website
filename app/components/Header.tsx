@@ -13,8 +13,8 @@ function Header() {
             <header className='flex justify-between p-4 bg-transparent' >
 
                 <div className='flex gap-4 '>
-                    <button>github</button>
-                    <button>linkedin</button>
+                    <Link href={'https://github.com/UsmanFaisal13'}>Github</Link>
+                    <Link href={'https://www.linkedin.com/in/usman-faisal-9b9a0b1b4/'}>Linkedin</Link>
                 </div>
                 <nav className='flex flex-row gap-4 '>
 
