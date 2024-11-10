@@ -21,7 +21,7 @@ const page = () => {
                     <div className='bg-white/5 backdrop-blur-sm p-6 rounded-xl'>
                         <h2 className='text-3xl font-Darker_Grotesque mb-4'>Who I Am</h2>
                         <p className='text-lg leading-relaxed'>
-                            I'm a passionate web developer with a keen eye for creating elegant solutions. My journey in tech started with a curiosity for how things work on the web, and it has evolved into a professional pursuit of crafting exceptional digital experiences.
+                            I am a passionate web developer with a keen eye for creating elegant solutions. My journey in tech started with a curiosity for how things work on the web, and it has evolved into a professional pursuit of crafting exceptional digital experiences.
                         </p>
                     </div>
 
