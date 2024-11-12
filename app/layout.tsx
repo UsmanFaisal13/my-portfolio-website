@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from 'next/image'
 import styles from './components/Header.module.css'
+import Footer from "./components/Footer";
 
 
 import "./globals.css";
@@ -40,7 +41,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`overflow-x-hidden ${DMSans.variable} ${Grotesque.variable}`}
+        className={` ${DMSans.variable} ${Grotesque.variable} font-DM_Sans`}
       >
         <Image
           src={'Ellipse 6.svg'}
@@ -49,9 +50,17 @@ export default function RootLayout({
           height={0}
           className={`w-full absolute -z-50 flex self-center rounded-b-full top-16 ${styles.fadeIn}`}
         />
+
         <Header />
 
         {children}
+
+
+        <footer className='m-0 flex-col items-center gap-4 w-full flex lg:hidden '>
+
+          <p className='py-4 text-white -z-50'>  copyright &copy; by Usman Faisal </p>
+        </footer>
+
 
       </body>
     </html>

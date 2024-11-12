@@ -2,10 +2,10 @@ import React from 'react'
 
 function Footer() {
     return (
-        <div className='flex h-screen flex-col items-center gap-4 bg-black w-full'>
-            <div></div>
+        <footer className=' m-0 flex-col items-center gap-4 bg-black w-screen hidden lg:flex'>
+
             <p className='py-4 text-white'>  copyright &copy; by Usman Faisal </p>
-        </div>
+        </footer>
     )
 }
 

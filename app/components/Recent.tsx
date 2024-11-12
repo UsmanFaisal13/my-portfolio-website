@@ -4,11 +4,11 @@ import Link from 'next/link'
 
 function Recent() {
     return (
-        <div className='flex py-20 h-screen flex-col gap-4'>
+        <div className='flex lg:py-20 flex-col gap-4'>
             <div className='flex justify-between'>
 
-                <h1 className='text-2xl px-32'>Recent Projects</h1>
-                <Link href={'/project-page'} className='text-2xl px-32'>View all</Link>
+                <h1 className='text-xl lg:px-32 px-10 m-0'>Recent Projects</h1>
+                <Link href={'/project-page'} className='lg:text-2xl text-xl lg:px-32 px-4'>View all</Link>
             </div>
             <div className='flex flex-row gap-4 justify-center flex-wrap w-full'>
                 <ProjectCard projectName="Figma design to Next JS Website"
