@@ -13,7 +13,7 @@ export default function Navbar() {
                 <div className='h-[1px] w-6 bg-white'></div>
                 <div className='h-[1px] w-6 bg-white'></div>
             </div>
-            <nav className={`bg-black w-[90vw] h-screen lg:hidden absolute z-50 ${isOpen ? 'bottom-0' : 'bottom-full'} transition-all`}>
+            <nav className={`bg-black w-[90vw] h-screen flex items-center justify-center lg:hidden absolute z-50 ${isOpen ? 'bottom-0' : 'bottom-full'} transition-all`}>
 
 
 
