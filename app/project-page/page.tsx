@@ -8,10 +8,10 @@ const page = () => {
             <h1 className='text-6xl font-Darker_Grotesque mb-8'>Projects</h1>
             <div className='flex flex-row gap-4 justify-center flex-wrap w-full pb-8'>
 
-                <ProjectCard projectName="Figma design to Next JS Website"
+                <ProjectCard projectName="Figma design to Next JS"
                     projectDescription="This project was given by my teachers in GIAIC
                     to test our skills in Figma design to Next JS Website"
-                    projectLink="https://figma-to-nextjs-six.vercel.app/" languages={["Nextjs", "TypeScript", "Tailwind"]} />
+                    projectLink="https://figma-to-nextjs-six.vercel.app/" languages={["Nextjs", "Tailwind"]} />
                 <ProjectCard projectName="Country List"
                     projectDescription="This project was given by my teachers in GIAIC
                     to test our skills in Dynamic routing feature in next JS design to Next JS Website"
@@ -22,7 +22,7 @@ const page = () => {
                 <ProjectCard projectName="My Portfolio Website"
                     projectDescription="This project was given by my teachers in GIAIC
                     to test our skills in Next js and design"
-                    projectLink="https://usman-faisal.vercel.app/" languages={["Nextjs", "TypeScript", "Tailwind"]} />
+                    projectLink="https://usman-faisal.vercel.app/" languages={["Nextjs", "Tailwind"]} />
 
 
             </div>

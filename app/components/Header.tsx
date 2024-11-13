@@ -16,8 +16,8 @@ function Header() {
 
 
                 <div className='flex gap-4 '>
-                    <Link href={'https://github.com/UsmanFaisal13'}>Github</Link>
-                    <Link href={'https://www.linkedin.com/in/usman-faisal-9b9a0b1b4/'}>Linkedin</Link>
+                    <Link href={'https://github.com/UsmanFaisal13'} className='hover:text-gray-300 focus:font-bold transition-all'>Github</Link>
+                    <Link href={'https://www.linkedin.com/in/usman-faisal-9b9a0b1b4/'} className='hover:text-gray-300 focus:font-bold transition-all'>Linkedin</Link>
                 </div>
                 <Navbar />
 
@@ -25,14 +25,14 @@ function Header() {
                 <nav className='lg:flex lg:flex-row gap-4 hidden '>
 
 
-                    <Link href="/">Home</Link>
+                    <Link href="/" className='hover:text-gray-300 focus:font-bold transition-all'>Home</Link>
 
 
-                    <Link href='./project-page'>Projects</Link>
+                    <Link href='./project-page' className='hover:text-gray-300 focus:font-bold transition-all'>Projects</Link>
 
 
-                    <Link href="/contacts">Contact</Link>
-                    <Link href="/about">About</Link>
+                    <Link href="/contacts" className='hover:text-gray-300 focus:font-bold transition-all'>Contact</Link>
+                    <Link href="/about" className='hover:text-gray-300 focus:font-bold transition-all'>About</Link>
 
 
                 </nav>

@@ -22,14 +22,14 @@ export default function Navbar() {
                 >
 
 
-                    <Link href="/">Home</Link>
+                    <Link href="/" className=' transition-all focus:text-2xl'>Home</Link>
 
 
-                    <Link href='./project-page'>Projects</Link>
+                    <Link href='./project-page' className='hover:font-black transition-all focus:text-2xl'>Projects</Link>
 
 
-                    <Link href="/contacts">Contact</Link>
-                    <Link href="/about">About</Link>
+                    <Link href="/contacts" className='hover:font-black transition-all focus:text-2xl'>Contact</Link>
+                    <Link href="/about" className='hover:font-black transition-all focus:text-2xl'>About</Link>
 
 
                     <button className='bg-stone-800 rounded-lg p-4 h-10 w-20 m-2 flex items-center justify-center lg:hidden' onClick={() => setIsOpen(!isOpen)}>
