@@ -11,7 +11,7 @@ function Hero() {
             <div className='flex gap-20 flex-row justify-around'>
                 <Link href={'/contacts'}>
 
-                    <button className='bg-black p-4 py-2 my-6 text-white rounded-lg hover:bg-[#101010] transition-colors'>Contact</button>
+                    <button className='bg-black border-stone-800 p-4 py-2 my-6 text-white rounded-lg hover:bg-[#101010] transition-colors'>Contact</button>
                 </Link>
                 <div className='py-4'>
                     <h1 className='font-DM_Sans text-sm'>Specialized in</h1>

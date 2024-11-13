@@ -8,20 +8,20 @@ const page = () => {
 
             <div className='flex flex-col md:flex-row max-w-6xl gap-12 px-6'>
                 <div className='flex-1'>
-                    <Image
-                        src="/languages/nextjs.png"
-                        alt="Profile Picture"
-                        width={400}
-                        height={400}
-                        className='rounded-2xl shadow-lg'
-                    />
+
+                    <div className='bg-white/5 backdrop-blur-sm p-6 rounded-xl'>
+                        <h2 className='text-3xl font-Darker_Grotesque mb-4'>Work History</h2>
+                        <p className='text-lg leading-relaxed'>
+
+                        </p>
+                    </div>
                 </div>
 
                 <div className='flex-1 space-y-6'>
                     <div className='bg-white/5 backdrop-blur-sm p-6 rounded-xl'>
                         <h2 className='text-3xl font-Darker_Grotesque mb-4'>Who I Am</h2>
                         <p className='text-lg leading-relaxed'>
-                            I am a passionate web developer with a keen eye for creating elegant solutions. My journey in tech started with a curiosity for how things work on the web, and it has evolved into a professional pursuit of crafting exceptional digital experiences.
+                            Hi! I am Usman Faisal, a developer based in Karachi, Pakistan.Currently I am enrolled in GIAIC, a Governor Initiative Course to equip students with skills in using cutting edge technologies. I have a passion for creating beautiful and functional web solutions, and I am always looking to learn new technologies and improve my skills on my own as well.
                         </p>
                     </div>
 
@@ -48,9 +48,10 @@ const page = () => {
                     </div>
 
                     <div className='bg-white/5 backdrop-blur-sm p-6 rounded-xl'>
-                        <h2 className='text-3xl font-Darker_Grotesque mb-4'>What I Do</h2>
+                        <h2 className='text-3xl font-Darker_Grotesque mb-4'>Education</h2>
                         <p className='text-lg leading-relaxed'>
-                            I specialize in building modern web applications that combine beautiful design with powerful functionality. My focus is on creating responsive, user-friendly interfaces that deliver exceptional user experiences.
+                            I am a High School Graduate and will be starting my University life this year 2025. Aside from my formal education, I have also completed a number of online courses in HTML, CSS, Javascript, and React.js. These courses have provided me with a solid foundation in web development.
+                            And as i mentioned above I am enrolled in GIAIC a year long course to equip students with skills in using cutting edge technologies.
                         </p>
                     </div>
                 </div>
