@@ -10,7 +10,7 @@ const page = () => {
                 <div className='flex-1'>
 
                     <div className='bg-white/5 backdrop-blur-sm p-6 rounded-xl'>
-                        <h2 className='text-3xl font-Darker_Grotesque mb-4'>Work History</h2>
+                        <h2 className='text-3xl font-Darker_Grotesque mb-4'>Work Experience</h2>
                         <p className='text-lg leading-relaxed'>
 
                         </p>
