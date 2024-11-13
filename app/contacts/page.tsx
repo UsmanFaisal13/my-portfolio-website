@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 const page = () => {
     return (
         <div className='flex py-20 min-h-screen flex-col items-center gap-4'>
-            <h1 className='text-6xl font-Darker_Grotesque mb-8'>Talk</h1>
+            <h1 className='text-6xl font-Darker_Grotesque mb-8'>Let's Talk</h1>
 
             <form className='flex flex-col w-full max-w-md gap-4 p-6 bg-white/5 rounded-lg backdrop-blur-sm'>
                 <div className='flex flex-col gap-2'>
