@@ -41,7 +41,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={` ${DMSans.variable} ${Grotesque.variable} font-DM_Sans`}
+        className={` ${DMSans.variable} ${Grotesque.variable} font-DM_Sans scroll-smooth`}
       >
         <Image
           src={'Ellipse 6.svg'}
@@ -58,7 +58,7 @@ export default function RootLayout({
 
         <footer className='m-0 flex-col items-center gap-4 w-full flex lg:hidden '>
 
-          <p className='py-4 text-white -z-50'>  copyright &copy; by Usman Faisal </p>
+          <p className='py-4 text-white -z-50'>  copyright &copy; reserved by Usman Faisal </p>
         </footer>
 
 
