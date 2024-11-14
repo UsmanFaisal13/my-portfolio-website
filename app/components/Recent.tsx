@@ -17,7 +17,7 @@ function Recent() {
                     projectLink="https://figma-to-nextjs-six.vercel.app/" languages={["Typescript", "Tailwind"]} />
                 <ProjectCard projectName="Woocommerce Stores"
                     projectDescription="This is a demo Wordpress project I made for learning purpose."
-                    projectLink="https://upmerchant.infinityfreeapp.com/?i=1" languages={["Wordpress"]} />
+                    projectLink="https://upmerchant.infinityfreeapp.com/?i=1" languages={["Wordpress", "Html"]} />
                 <ProjectCard projectName="Todo App"
                     projectDescription="This is an awesome personal project description"
                     projectLink="https://react-todo-list-flame-ten.vercel.app/" languages={["React", "CSS"]} />
