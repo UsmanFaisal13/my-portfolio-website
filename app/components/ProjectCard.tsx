@@ -19,7 +19,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ projectName, projectDescripti
             </div>
             <div className='grid grid-rows-2 gap-16 lg:p-8 p-4'>
                 <Link href={projectLink} className='flex justify-end'>
-                    <Image src={'/material-symbols-light--link.png'} alt='link' width={40} height={40} className='text-white lg:w-10 lg:h-10 w-6 h-6' />
+                    <Image src={'/material-symbols-light--link.png'} alt='link' width={40} height={40} className='text-white transition-all hover:bg-zinc-800 rounded-full  lg:w-10 lg:h-10 w-6 h-6' />
                 </Link>
                 <div className='flex gap-2 justify-end lg:ml-4'>
                     {languages.map((lang, index) => (
