@@ -28,10 +28,14 @@ const page = () => {
                     <div className='bg-white/5 backdrop-blur-sm p-6 rounded-xl'>
                         <h2 className='text-3xl font-Darker_Grotesque mb-4'>Who I Am</h2>
                         <p className='text-lg leading-relaxed'>
-                            Hi! I am Usman Faisal, a developer based in Karachi, Pakistan.
-                            Currently I am enrolled in a year long course GIAIC,
-                            a Sindh Governor IT initiative to teach students to build real world projects by using the latest technologies.
-                            and aside from this course I am always exploring and learning new things independently.
+
+                            Hi there! I'm Usman, a designer and a web developer. Currently I'm enrolled in the Governor Sindh IT initiative course (GI-AIWMD) where we are being taught latest tools and technologies in web development and AI with hands on training.
+
+                            Other things that I really enjoy are graphic designing, learning new things and working on coding projects.
+
+                            I'm eager to connect with fellow professionals, collaborators, and those who share a passion for design and technology. Whether it's diving into design trends, or exploring opportunities to collaborate, I'm always open to meaningful conversations.
+
+                            Feel free to reach out and let's embark on a journey of shared interests.
                         </p>
                     </div>
 
