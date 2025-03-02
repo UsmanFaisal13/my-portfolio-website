@@ -17,7 +17,7 @@ function Header() {
 
                 <div className='flex gap-4 '>
                     <Link href={'https://github.com/UsmanFaisal13'} className='hover:text-gray-300 focus:font-bold transition-all'>Github</Link>
-                    <Link href={'https://www.linkedin.com/in/usman-faisal-9b9a0b1b4/'} className='hover:text-gray-300 focus:font-bold transition-all'>Linkedin</Link>
+                    <Link href={'https://www.linkedin.com/in/usman-faisal-142a85285/'} className='hover:text-gray-300 focus:font-bold transition-all'>Linkedin</Link>
                 </div>
                 <Navbar />
 
