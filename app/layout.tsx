@@ -48,7 +48,7 @@ export default function RootLayout({
           alt={'Ellipse 6'}
           width={0}
           height={0}
-          className={`w-full absolute -z-50 flex self-center rounded-b-full top-16 ${styles.fadeIn}`}
+          className={`w-full absolute -z-50 flex self-center top-16 ${styles.fadeIn}`}
         />
 
         <Header />
