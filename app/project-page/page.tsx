@@ -30,7 +30,7 @@ const page = () => {
 
                 <ProjectCard projectName="Woocommerce Stores"
                     projectDescription="This is a demo Wordpress project I made for learning purpose."
-                    projectLink="https://upmerchant.infinityfreeapp.com/?i=1" languages={["Wordpress", "HTML"]} />
+                    projectLink="https://upmerchant.infinityfreeapp.com/?i=1" languages={["Wordpress", "HTML", "CSS"]} />
 
                 <ProjectCard projectName="My Portfolio Website"
                     projectDescription="This project was given by my teachers in GIAIC
