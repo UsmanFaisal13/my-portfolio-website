@@ -3,6 +3,7 @@ import Footer from '../components/Footer'
 
 const page = () => {
     return (
+        <>
         <div className='flex py-20 min-h-screen flex-col items-center gap-4'>
             <h1 className='text-6xl font-Darker_Grotesque mb-8'>Contact me
             </h1>
@@ -48,9 +49,12 @@ const page = () => {
                     Send Message
                 </button>
             </form>
+          
 
 
         </div>
+        <Footer />
+        </>
     )
 }
 

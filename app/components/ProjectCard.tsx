@@ -25,7 +25,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 }) => {
     return (
         <div className={`
-            lg:w-[530px] h-auto lg:h-[250px] lg:min-w-[530px] max-w-96 min-w-fit 
+            lg:w-[530px] h-auto lg:h-[250px] lg:min-w-[530px] max-w-96 min-w-auto 
             bg-zinc-900 rounded-md shadow-lg hover:shadow-xl 
             justify-between flex flex-row
             transition-all duration-300 hover:translate-y-[-4px]

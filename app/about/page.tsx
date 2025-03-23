@@ -1,8 +1,9 @@
 import React from 'react'
-import Image from 'next/image'
+import Footer from '../components/Footer'
 
 const page = () => {
     return (
+        <>
         <div className='flex py-20 min-h-screen flex-col items-center gap-8'>
             <h1 className='text-6xl font-Darker_Grotesque mb-4'>About Me</h1>
 
@@ -70,7 +71,10 @@ const page = () => {
                     </div>
                 </div>
             </div>
+          
         </div>
+        <Footer />
+        </>
 
 
 

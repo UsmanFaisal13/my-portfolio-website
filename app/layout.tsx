@@ -56,10 +56,7 @@ export default function RootLayout({
         {children}
 
 
-        <footer className='m-0 flex-col items-center gap-4 w-full flex lg:hidden '>
-
-          <p className='py-4 text-white -z-50'>  copyright &copy; reserved by Usman Faisal </p>
-        </footer>
+      
 
 
       </body>
