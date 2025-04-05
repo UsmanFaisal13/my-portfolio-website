@@ -7,7 +7,7 @@ function Hero() {
     return (
         <div className='flex py-20 flex-col items-center gap-4'>
             <h1 className='lg:text-9xl text-6xl font-Darker_Grotesque'>Usman Faisal</h1>
-            <p className='lg:text-2xl text-lg font-Darker_Grotesque px-6 lg:px-0'>Apprentice full stack developer based in Karachi, Pakistan.</p>
+            <p className='lg:text-2xl text-lg font-Darker_Grotesque px-6 lg:px-0'>JAMstack developer based in Karachi, Pakistan.</p>
             <div className='flex gap-20 flex-row justify-around'>
                 <Link href={'/contacts'}>
 
