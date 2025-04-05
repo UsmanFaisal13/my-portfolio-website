@@ -47,7 +47,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                         {languages.map((lang, index) => (
                             <div key={index} className="flex items-center gap-1 bg-zinc-800 px-2 py-1 rounded text-xs text-gray-300">
                                 <Image
-                                    src={`/languages/${lang.toLowerCase()}.png`}
+                                    src={`/languages/${lang}.png`}
                                     alt={lang}
                                     width={20}
                                     height={20}
