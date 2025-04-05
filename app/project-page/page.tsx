@@ -8,6 +8,15 @@ const page = () => {
         <div className='flex space-y-20 h-screen flex-col items-center gap-4'>
             <h1 className='text-6xl font-Darker_Grotesque mt-16'>Projects</h1>
             <div className='flex flex-row gap-4 justify-center flex-wrap w-full pb-8'>
+            <ProjectCard projectName="Unit converter"
+                    projectDescription="This project was given by my teachers in GIAIC
+                    to test our skills in Python"
+                    projectLink="https://usmanfaisal13-unit-converter-main-ageiya.streamlit.app/" languages={['Python','Streamlit']} />
+                <ProjectCard projectName="Password Strength Meter"
+                    projectDescription="This project was given by my teachers in GIAIC
+                    to test our skills in Python"
+                    projectLink="https://usmanfaisal13-password-strength-meter-main-itc6n6.streamlit.app/" languages={['Python','Streamlit']} />
+
                 <ProjectCard projectName="STEM News BLOG Website"
                     projectDescription="This project was given by my teachers in GIAIC
                     to test our skills in Next js and design"
@@ -34,6 +43,7 @@ const page = () => {
                     projectDescription="This project was given by my teachers in GIAIC
                     to test our skills in Next js and design"
                     projectLink="https://usman-faisal.vercel.app/" languages={["HTML", "Tailwind", "Typescript", "NextJS"]} />
+                             
 
             </div>
                  
