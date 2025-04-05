@@ -53,7 +53,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                                     height={20}
                                     className='w-4 h-4'
                                 />
-                                <span>{lang}</span>
+                                <span>{lang.toUpperCase()}</span>
                             </div>
                         ))}
                     </div>

@@ -18,6 +18,7 @@ function Tech() {
                 <Image src={'/languages/tailwind.png'} alt='html' width={80} height={80} className='lg:w-[80px] lg:h-[80px] w-10 h-10 '></Image>
                 <Image src={'/languages/Sanity.png'} alt='html' width={80} height={80} className='lg:w-[80px] lg:h-[80px] w-10 h-10 rounded-full '></Image>
                 <Image src={'/languages/Python.png'} alt='html' width={80} height={80} className='lg:w-[80px] lg:h-[80px] w-10 h-10 '></Image>
+                <Image src={'/languages/streamlit.png'} alt='html' width={80} height={80} className='lg:w-[80px] lg:h-[80px] w-10 h-10 '></Image>
              
 
 

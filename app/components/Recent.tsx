@@ -14,19 +14,19 @@ function Recent() {
                 <ProjectCard projectName="STEM News BLOG Website"
                     projectDescription="This project was given by my teachers in GIAIC
                     to test our skills in Next js and design"
-                    projectLink="https://stem-news-five.vercel.app/" languages={["Nextjs", "Tailwind", "Typescript", "Sanity"]} />
+                    projectLink="https://stem-news-five.vercel.app/" languages={["Nextjs", "tailwind", "typescript", "Sanity"]} />
                 <ProjectCard projectName="Furniture Store"
                     projectDescription="This project was given by my teachers in GIAIC
                     to test our skills in Next js and design"
-                    projectLink="https://furniture-store-topaz.vercel.app/" languages={["Nextjs", "Tailwind", "Typescript", "Sanity"]} />
+                    projectLink="https://furniture-store-topaz.vercel.app/" languages={["nextjs", "tailwind", "typescript", "Sanity"]} />
 
                <ProjectCard projectName="Web Development Agency Landing Page"
                     projectDescription="This is an awesome personal project description"
-                    projectLink="https://web-development-agency-demo.netlify.app/" languages={["HTML", "Tailwind", "Javascript"]} />
+                    projectLink="https://web-development-agency-demo.netlify.app/" languages={["html", "tailwind", "javascript"]} />
              <ProjectCard projectName="Unit converter"
                     projectDescription="This project was given by my teachers in GIAIC
                     to test our skills in Python"
-                    projectLink="https://usmanfaisal13-unit-converter-main-ageiya.streamlit.app/" languages={['Python','Streamlit']} />
+                    projectLink="https://usmanfaisal13-unit-converter-main-ageiya.streamlit.app/" languages={['Python','streamlit']} />
          
             </div>
 
