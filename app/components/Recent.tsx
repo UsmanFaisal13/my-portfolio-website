@@ -14,7 +14,7 @@ function Recent() {
                 <ProjectCard projectName="STEM News BLOG Website"
                     projectDescription="This project was given by my teachers in GIAIC
                     to test our skills in Next js and design"
-                    projectLink="https://stem-news-five.vercel.app/" languages={["Nextjs", "tailwind", "typescript", "Sanity"]} />
+                    projectLink="https://stem-news-five.vercel.app/" languages={["nextjs", "tailwind", "typescript", "Sanity"]} />
                 <ProjectCard projectName="Furniture Store"
                     projectDescription="This project was given by my teachers in GIAIC
                     to test our skills in Next js and design"
