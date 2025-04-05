@@ -32,7 +32,7 @@ const page = () => {
                     projectLink="https://figma-to-nextjs-sixtvercel.app/" languages={["typescript", "tailwind", "html", "react", "nextjs"]} />
                 <ProjectCard projectName="Todo List App"
                     projectDescription="This is an awesome personal project description"
-                    projectLink="https://todo-list-two-swart.vercel.app/" languages={["html", "CSS", "typescript", "react"]} />
+                    projectLink="https://todo-list-two-swart.vercel.app/" languages={["html", "css", "typescript", "react"]} />
 
                 <ProjectCard projectName="Web Development Agency Landing Page"
                     projectDescription="This is an awesome personal project description"
