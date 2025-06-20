@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function Tech() {
     return (
-        <div className='flex py-20 flex-col gap-4 lg:px-32'>
+        <div className='flex py-20 flex-col gap-4 lg:px-32 px-4'>
             <h1 className='lg:text-2xl text-xl '>Familiar Technologies</h1>
             <div className='flex flex-row gap-4 flex-wrap w-full'>
                 <Image src={'/languages/html.png'} alt='html' width={80} height={80} className='lg:w-[80px] lg:h-[80px] w-10 h-10 '></Image>
